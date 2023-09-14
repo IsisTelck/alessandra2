@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome=window.prompt("digite seu nome: ")
+            document.write(nome,'<br>')
+            window.alert(nome)
+        var numero=Number(window.prompt("digite um numero: "))
+            document.write(numero,'<br>')
+        var numero1=Number(window.prompt("digite um numero: "))
+            document.write(numero1,'<br>') 
+        var numero2=Number(window.prompt("digite um numero: "))
+            document.write(numero2,'<br>') 
+        var soma=numero+numero1
+            document.write(soma,'<br>')
+
+        var subtracao=soma-numero2
+            document.write(subtracao)
+    </script>
+    
+</body>
+</html>
