@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #area{
+            width: 150px;
+            height: 50px;
+            background-color: blue;
+        }
+</style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar" onmouseout="sair()">
+    Interaja
+</div>
+    <script>
+            var a=window.document.getElementById('area')
+            function clicar(){
+                a.innerText='clicou'
+                a.style.background='red'}
+            function entrar(){
+                a.innerText='você entrou'
+            }
+            function sair(){
+                a.innerText='você saiu'
+                a.style.background='green'
+            }
+    </script>
+    
+</body>
+</html>
