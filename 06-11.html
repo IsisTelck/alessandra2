@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <button id="data">Horario</button>
+    <p id="a"></p>
+    <script>
+        document.getElementById("data").onclick=displayDate;
+        function displayDate(){
+            document.getElementById("a").innerHTML=Date();
+        }
+    </script>
+    
+</body>
+</html>
